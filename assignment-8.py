@@ -111,7 +111,6 @@ class square(shape):
     def __init__(self,s):
         self.length=s
         self.breadth=s
-    pass
 r=rect(10,2)
 s=square(5)
 print("Area of rectangle:",r.area(),"and area of square:",s.area())
